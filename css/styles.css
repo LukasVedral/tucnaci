@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+    color: white;
+}
+header {
+    background-image: url("/img/background.jpg");
+    padding: 5%;
+    color: rgb(255, 0, 221);
+    font-size: 25px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 221);
+}
