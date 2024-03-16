@@ -4,14 +4,43 @@ body{
 }
 header {
     background-image: url("/img/background.jpg");
-    padding: 5%;
+    padding: 3%;
     color: rgb(255, 0, 221);
     font-size: 25px;
+    background-repeat: no-repeat;
 }
 li{
-    list-style: none;
+    list-style: circle;
+
 }
 a{
     text-decoration: none;
     color: rgb(255, 0, 221);
+}
+a:visited{
+    color: rgb(255, 123, 0);
+}
+a:hover{
+    color: black;
+    transition: 300ms;
+    font-size: 40px;
+}
+img{
+    width: 300px;
+}
+article p{
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    right: 5%;
+    text-align: justify;
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+footer{
+    border-top: solid 2px rgb(255, 0, 221);
+    text-align: center;
 }
